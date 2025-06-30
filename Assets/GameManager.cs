@@ -16,6 +16,6 @@ public class GameManager : MonoBehaviour
     public void CollectCrystal()
     {
         crystalCount++;
-        crystalText.text = "Crystals Collected: " + crystalCount + " / 10";
+        crystalText.text = "Crystals Collected: " + crystalCount + " / 5";
     }
 }
